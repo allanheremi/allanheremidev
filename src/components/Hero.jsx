@@ -18,7 +18,9 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white lg:text-[36px]`}>
             Hi, I'm <span className="text-[#915eff]">Allan</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100 lg:text-[24px]`}>
+          <p
+            className={`${styles.heroSubText} mt-2 text-white-100 lg:text-[24px]`}
+          >
             I develop smart contracts, 3D visuals,{' '}
             <br className="sm:block hidden" /> and web applications.
           </p>
@@ -28,8 +30,16 @@ const Hero = () => {
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
-          <div className='w-[36px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
-            <motion.dev animate={{y: [0, 24, 0]}} transition={{duration: 1.5, repeat: Infinity, repeatType: 'loop'}} className='w-2 h-2 rounded-full bg-secondary'/>
+          <div className="w-[36px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+            <motion.dev
+              animate={{ y: [0, 24, 0] }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                repeatType: 'loop',
+              }}
+              className="w-2 h-2 rounded-full bg-secondary"
+            />
           </div>
         </a>
       </div>
