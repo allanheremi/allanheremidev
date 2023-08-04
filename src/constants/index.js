@@ -13,6 +13,7 @@ import {
     nodejs,
     mongodb,
     git,
+    solidity,
     figma,
     docker,
     carrent,
@@ -60,32 +61,35 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
+  
     },
     {
       name: "TypeScript",
       icon: typescript,
+    
+    },
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS",
+      icon: css,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
+    },
+    {
+      name: "Redux Toolkit",
+      icon: redux,
+
     },
     {
       name: "Node JS",
@@ -104,13 +108,10 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "solidity",
+      icon: solidity,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+
   ];
   
   const experiences = [
