@@ -1,7 +1,7 @@
 import {
     mobile,
     backend,
-    creator,
+    blockchain,
     web,
     javascript,
     typescript,
@@ -54,7 +54,7 @@ import {
     },
     {
       title: "Blockchain developer",
-      icon: creator,
+      icon: blockchain,
     },
   ];
   
