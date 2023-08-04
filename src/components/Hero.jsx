@@ -21,8 +21,8 @@ const Hero = () => {
           <p
             className={`${styles.heroSubText} mt-2 text-white-100 lg:text-[24px]`}
           >
-            I develop smart contracts, 3D visuals,{' '}
-            <br className="sm:block hidden" /> and web applications.
+            I develop web applications,{' '}
+            <br className="sm:block hidden" /> and smart contracts.
           </p>
         </div>
       </div>

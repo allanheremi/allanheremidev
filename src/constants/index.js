@@ -122,10 +122,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Sep 2017 - Sep 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Managing end-to-end supply chain operations to ensure timely and efficient delivery of products.",
+        "Collaborating with suppliers, vendors, and distributors to optimize inventory levels and maintain adequate stock.",
+        "Coordinating order processing, shipment tracking, and delivery scheduling to meet customer requirements.",
+        "Monitoring and analyzing supply chain performance metrics to identify areas for improvement and implement strategic enhancements.",
       ],
     },
     {
@@ -135,10 +135,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Sep 2020 - Sep 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborating closely with procurement, engineering, and finance teams to understand project requirements and cost drivers.",
+        "Reviewing supplier proposals and negotiating pricing, terms, and contracts to achieve cost savings and favorable agreements.",
+        "Analyzing supplier capabilities, capacity, and financial stability to mitigate risks and ensure a reliable supply chain.",
+        "Monitoring market trends, industry dynamics, and regulatory changes to inform sourcing strategies and optimize supplier partnerships.",
       ],
     },
     {
@@ -148,10 +148,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Sep 2021 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Conceptualizing, planning, and overseeing the development of decentralized applications (DApps) and products on the Ethereum blockchain.",
+        "Collaborating with blockchain developers, smart contract engineers, and UI/UX designers to bring the Ethereum-based product to life.",
+        "Engaging with the Ethereum community, networking with potential users, investors, and collaborators to promote the product and gather feedback.",
+        "Defining and tracking key performance indicators (KPIs) to measure the success and adoption of the Ethereum-based solution.",
       ],
     },
     {
@@ -161,10 +161,10 @@ import {
       iconBg: "#E6DEDD",
       date: "May 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborating with clients to assess their software needs, business goals, and technical requirements.",
+        "Assisting in the evaluation and integration of third-party tools and technologies.",
+        "Collaborating with development teams to contribute to coding, debugging, and testing tasks.",
+        "Applying software architecture principles and best practices.",
       ],
     },
   ];
@@ -188,6 +188,14 @@ import {
     },
     {
       testimonial:
+        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      name: "Chris Brown",
+      designation: "COO",
+      company: "DEF Corp",
+      image: "https://randomuser.me/api/portraits/men/5.jpg",
+    },
+    {
+      testimonial:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
@@ -197,6 +205,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Car Rent",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: carrent,
+      source_code_link: "https://github.com/",
+    },
     {
       name: "Car Rent",
       description:
