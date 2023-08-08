@@ -22,7 +22,7 @@ const Hero = () => {
             className={`${styles.heroSubText} mt-2 text-white-100 lg:text-[24px]`}
           >
             I like to develop web applications{' '}
-            <br className="sm:block hidden" /> & smart contracts.
+            <br className="sm:block hidden" /> and smart contracts.
           </p>
         </div>
       </div>
