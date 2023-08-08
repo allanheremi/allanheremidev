@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import allan from "./allan.png";
 import backend from "./backend.png";
 import blockchain from "./blockchain.png";
 import mobile from "./mobile.png";
@@ -34,7 +34,7 @@ import web3 from './web3.png'
 export {
   githubpreview,
   leetcode,
-  logo,
+  allan,
   backend,
   blockchain,
   mobile,
