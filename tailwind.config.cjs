@@ -19,7 +19,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": ["url('/src/assets/testherobg.jpeg')", "url('/src/assets/herobg.png')"],
+        "hero-pattern": "url('/src/assets/testherobg.jpeg')",
       },
       linearGradientColors: {
         'transparent-to-primary': ['transparent', '#2a2a2a'],
