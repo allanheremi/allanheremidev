@@ -23,13 +23,17 @@
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #434343,
-    #000000
+    #2a2a2a,
+    #3f3f3f,
+    #545454,
+    #696969
   ); 
   background: linear-gradient(
     to right,
-    #434343,
-    #000000
+    #2a2a2a,
+    #3f3f3f,
+    #545454,
+    #696969
   );
 }
 
