@@ -207,7 +207,7 @@ import {
     {
       name: "Three Mesh",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "an interactive 3D web application that allows you to explore and create various geometries in a vibrant virtual environment. This project is a playful introduction to the world of 3D programming using the popular Three.js library.",
       tags: [
         {
           name: "css",
@@ -228,7 +228,7 @@ import {
     {
       name: "Web3 price tracker",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This React-based application allows you to effortlessly track the latest price data of various cryptocurrencies. With price data via Coingeckos API.",
       tags: [
         {
           name: "react",
@@ -249,7 +249,7 @@ import {
     {
       name: "Leetcode profile",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Link to my Leetcode profile, leetcode is a website where users can practice solving algorithms and data structures.", 
       tags: [
         {
           name: "algorithms",
@@ -270,7 +270,7 @@ import {
     {
       name: "Github profile",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Link to my Github profile, here you will be able to find all my previous and upcoming projects as well as the source code.",
       tags: [
         {
           name: "code",
