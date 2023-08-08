@@ -28,10 +28,12 @@ import salt from './company/salt.png'
 
 import githubpreview from './githubpreview.png'
 import leetcode from './leetcode.png'
+import leetcodelogo from './leetcodelogo.png'
 import threemesh from './threemesh.png'
 import web3 from './web3.png'
 
 export {
+  leetcodelogo,
   githubpreview,
   leetcode,
   allan,

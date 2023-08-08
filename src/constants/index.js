@@ -21,7 +21,8 @@ import {
     ethereum,
     salt,
     githubpreview,
-    leetcode
+    leetcode,
+    leetcodelogo
   } from "../assets";
   
   export const navLinks = [
@@ -207,7 +208,7 @@ import {
     {
       name: "Three Mesh",
       description:
-        "an interactive 3D web application that allows you to explore and create various geometries in a vibrant virtual environment. This project is a playful introduction to the world of 3D programming using the popular Three.js library.",
+        "Experience an interactive 3D web app, exploring & creating geometries in a vibrant virtual environment. Begin your 3D programming journey with Three.js!",
       tags: [
         {
           name: "css",
@@ -223,12 +224,12 @@ import {
         },
       ],
       image: threemesh,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/allanheremi/threeMesh",
     },
     {
       name: "Web3 price tracker",
       description:
-        "This React-based application allows you to effortlessly track the latest price data of various cryptocurrencies. With price data via Coingeckos API.",
+        "Discover a React-based app tracking cryptocurrency prices in real-time via Coingecko's API. Stay updated effortlessly on diverse cryptocurrencies.",
       tags: [
         {
           name: "react",
@@ -244,7 +245,7 @@ import {
         },
       ],
       image: web3,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/allanheremi/web3PriceTracker",
     },
     {
       name: "Leetcode profile",
@@ -265,7 +266,7 @@ import {
         },
       ],
       image: leetcode,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://leetcode.com/allanheremi/",
     },
     {
       name: "Github profile",
@@ -286,7 +287,7 @@ import {
         },
       ],
       image: githubpreview,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/allanheremi",
     },
   ];
   
