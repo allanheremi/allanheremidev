@@ -26,11 +26,14 @@ import enics from './company/enics.png'
 import ethereum from './company/ethereum.png'
 import salt from './company/salt.png'
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import githubpreview from './githubpreview.png'
+import leetcode from './leetcode.png'
+import threemesh from './threemesh.png'
+import web3 from './web3.png'
 
 export {
+  githubpreview,
+  leetcode,
   logo,
   backend,
   blockchain,
@@ -53,10 +56,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   enics,
   ethereum, 
-  salt
+  salt,
+  web3,
+  threemesh
 };

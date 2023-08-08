@@ -14,15 +14,14 @@ import {
     mongodb,
     git,
     solidity,
-    figma,
-    docker,
-    carrent,
-    jobit,
-    tripguide,
+    web3,
+    threemesh,
     threejs,
     enics, 
     ethereum,
-    salt
+    salt,
+    githubpreview,
+    leetcode
   } from "../assets";
   
   export const navLinks = [
@@ -206,7 +205,28 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Three Mesh",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "css",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "three",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: threemesh,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Web3 price tracker",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -215,78 +235,57 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "API",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "zustand",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: web3,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
+      name: "Leetcode profile",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
-          name: "react",
+          name: "algorithms",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "logic",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "patterns",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: leetcode,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Github profile",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "code",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "social",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "collab",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: githubpreview,
       source_code_link: "https://github.com/",
     },
   ];
