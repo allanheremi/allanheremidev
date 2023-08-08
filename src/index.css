@@ -98,17 +98,25 @@
   -webkit-text-fill-color: transparent;
 }
 
-.pink-text-gradient {
-  background: #ec008c; 
+.purple-text-gradient {
+  background: #6F61C0; 
   background: -webkit-linear-gradient(
-    to top,
-    #ec008c,
-    #fc6767
+    to bottom,
+    #6F61C0,
+    #A084E8,
+    #6F61C0,
+    #A084E8,
+    #6F61C0,
+    #A084E8
   ); 
   background: linear-gradient(
-    to top,
-    #ec008c,
-    #fc6767
+    to bottom,
+    #6F61C0,
+    #A084E8,
+    #6F61C0,
+    #A084E8,
+    #6F61C0,
+    #A084E8
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

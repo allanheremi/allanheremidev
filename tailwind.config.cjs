@@ -5,10 +5,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
-        "black-100": "#100d25",
+        primary: "#2a2a2a",
+        secondary: "#A084E8",
+        tertiary: "#3f3f3f",
+        "black-100": "#3f3f3f",
         "black-200": "#090325",
         "white-100": "#DDDDDD",
       },
@@ -19,9 +19,15 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('/src/assets/testherobg.jpeg')",
+      },
+      linearGradientColors: {
+        'transparent-to-primary': ['transparent', '#2a2a2a'],
+        'primary-to-transparent': ['#2a2a2a', 'transparent'],
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-gradients'),
+  ],
 };

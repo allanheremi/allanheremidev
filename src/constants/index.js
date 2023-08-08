@@ -211,15 +211,15 @@ import {
       tags: [
         {
           name: "css",
-          color: "blue-text-gradient",
+          color: 'purple-text-gradient'
         },
         {
           name: "three",
-          color: "green-text-gradient",
+          color: 'purple-text-gradient'
         },
         {
           name: "javascript",
-          color: "pink-text-gradient",
+          color: 'purple-text-gradient'
         },
       ],
       image: threemesh,
@@ -232,15 +232,15 @@ import {
       tags: [
         {
           name: "react",
-          color: "blue-text-gradient",
+          color: 'purple-text-gradient'
         },
         {
           name: "API",
-          color: "green-text-gradient",
+          color: 'purple-text-gradient'
         },
         {
           name: "zustand",
-          color: "pink-text-gradient",
+          color: 'purple-text-gradient'
         },
       ],
       image: web3,
@@ -253,15 +253,15 @@ import {
       tags: [
         {
           name: "algorithms",
-          color: "blue-text-gradient",
+          color: 'purple-text-gradient'
         },
         {
           name: "logic",
-          color: "green-text-gradient",
+          color: 'purple-text-gradient'
         },
         {
           name: "patterns",
-          color: "pink-text-gradient",
+          color: 'purple-text-gradient'
         },
       ],
       image: leetcode,
@@ -274,15 +274,15 @@ import {
       tags: [
         {
           name: "code",
-          color: "blue-text-gradient",
+          color: 'purple-text-gradient'
         },
         {
           name: "social",
-          color: "green-text-gradient",
+          color: 'purple-text-gradient'
         },
         {
           name: "collab",
-          color: "pink-text-gradient",
+          color: 'purple-text-gradient'
         },
       ],
       image: githubpreview,

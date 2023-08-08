@@ -6,7 +6,7 @@ import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-screen mx-auto bg-gradient-to-b from-transparent to-primary">
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 lg:top-[60px]`}
       >
@@ -16,10 +16,10 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white lg:text-[36px]`}>
-            Hi, I'm <span className="text-[#915eff]">Allan</span>
+            Hi, I'm <span className="text-[#ffffff]">Allan</span>
           </h1>
           <p
-            className={`${styles.heroSubText} mt-2 text-white-100 lg:text-[24px]`}
+            className={`${styles.heroSubText} mt-2 text-[#ffffff] lg:text-[24px]`}
           >
             I develop web applications,{' '}
             <br className="sm:block hidden" /> and smart contracts.
