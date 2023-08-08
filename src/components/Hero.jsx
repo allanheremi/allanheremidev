@@ -15,11 +15,11 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white lg:text-[36px]`}>
-            Hi, I'm <span className="text-[#ffffff]">Allan</span>
+          <h1 className={`${styles.heroHeadText} text-white-100 lg:text-[36px]`}>
+            Hi, I'm <span className="text-white-100">Allan</span>
           </h1>
           <p
-            className={`${styles.heroSubText} mt-2 text-[#ffffff] lg:text-[24px]`}
+            className={`${styles.heroSubText} mt-2 text-white-100 lg:text-[24px]`}
           >
             I develop web applications,{' '}
             <br className="sm:block hidden" /> and smart contracts.
