@@ -20,20 +20,22 @@
 }
 
 .black-gradient {
-  background: #000000; /* fallback for old browsers */
+  background: #000000; /* fallback for old browsers */ 
   background: -webkit-linear-gradient(
     to right,
     #2a2a2a,
     #3f3f3f,
     #545454,
-    #696969
+    #696969,
+    #7f7f7f
   ); 
   background: linear-gradient(
     to right,
     #2a2a2a,
     #3f3f3f,
     #545454,
-    #696969
+    #696969,
+    #7f7f7f
   );
 }
 
