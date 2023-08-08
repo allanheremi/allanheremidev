@@ -69,6 +69,7 @@
   ); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text; 
 }
 
 .green-text-gradient {
@@ -85,6 +86,7 @@
   ); 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text; 
 }
 
 .blue-text-gradient {
@@ -102,6 +104,7 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text; 
 }
 
 .purple-text-gradient {
@@ -126,6 +129,7 @@
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text; 
 }
 
 .canvas-loader {
