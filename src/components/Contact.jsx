@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser"; 
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -15,12 +15,17 @@ const Contact = () => {
     message: "",
   });
 
-
   const [loading, setLoading] = useState(false);
+  const [isValidEmail, setIsValidEmail] = useState(true); 
 
   const handleChange = (e) => {
     const { target } = e;
     const { name, value } = target;
+
+    if (name === "email") {
+      const isValid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+      setIsValidEmail(isValid);
+    }
 
     setForm({
       ...form,
@@ -32,23 +37,12 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-
-      // public key vppYfgRLZjqgqjsRK
-  // template id template_e3zxwz6
-  // service id service_y85400y
     emailjs
-      .send(
+      .sendForm( 
         'service_y85400y',
         'template_8veyo3g',
-        {
-
-          from_name: form.name,
-          to_name: "Allan Heremi",
-          from_email: form.email,
-          to_email: "allanheremidev@gmail.com",
-          message: form.message,
-        },
-       'vppYfgRLZjqgqjsRK'
+        formRef.current, 
+        'vppYfgRLZjqgqjsRK'
       )
       .then(
         () => {
@@ -71,21 +65,12 @@ const Contact = () => {
   };
 
   return (
-    <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
-    >
-      <motion.div
-        variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
-      >
+    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
+      <motion.div variants={slideIn("left", "tween", 0.2, 1)} className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-        <form
-          ref={formRef}
-          onSubmit={handleSubmit}
-          className='mt-12 flex flex-col gap-8'
-        >
+        <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Name</span>
             <input
@@ -105,8 +90,11 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="Enter your email"
-              className='bg-[#949494] py-4 px-6 placeholder:text-[#d4d4d4] text-white rounded-lg outline-none border-none font-medium'
+              className={`bg-[#949494] py-4 px-6 placeholder:text-[#d4d4d4] text-white rounded-lg outline-none border-none font-medium ${
+                !isValidEmail ? 'border-red-500' : ''
+              }`}
             />
+            {!isValidEmail && <p className='text-red-500'>Please enter a valid email address.</p>}
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
@@ -129,10 +117,7 @@ const Contact = () => {
         </form>
       </motion.div>
 
-      <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-      >
+      <motion.div variants={slideIn("right", "tween", 0.2, 1)} className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
         <EarthCanvas />
       </motion.div>
     </div>

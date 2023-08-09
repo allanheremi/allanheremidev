@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "Mobile developer",
+      title: "Mobile Developer",
       icon: mobile,
     },
     {
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Blockchain developer",
+      title: "Blockchain Developer",
       icon: blockchain,
     },
   ];
