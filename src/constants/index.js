@@ -45,10 +45,7 @@ import {
       title: "Frontend Developer",
       icon: web,
     },
-    {
-      title: "Mobile Developer",
-      icon: mobile,
-    },
+ 
     {
       title: "Backend Developer",
       icon: backend,
