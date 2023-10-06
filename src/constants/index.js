@@ -22,7 +22,8 @@ import {
     salt,
     githubpreview,
     leetcode,
-    leetcodelogo
+    lightblock
+
   } from "../assets";
   
   export const navLinks = [
@@ -202,6 +203,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Lightblock",
+      description:
+        "Basic blockchain explorer to track address balance & activity as well as price data feeds for cryptocurrencies and NFTs",
+      tags: [
+        {
+          name: "tailwind",
+          color: 'purple-text-gradient'
+        },
+        {
+          name: "nextjs",
+          color: 'purple-text-gradient'
+        },
+        {
+          name: "react",
+          color: 'purple-text-gradient'
+        },
+      ],
+      image: lightblock,
+      source_code_link: "https://github.com/allanheremi/lightblock",
+    },
     {
       name: "Three Mesh",
       description:

@@ -31,8 +31,10 @@ import leetcode from './leetcode.png'
 import leetcodelogo from './leetcodelogo.png'
 import threemesh from './threemesh.png'
 import web3 from './web3.png'
+import lightblock from './lightblock.png'
 
 export {
+  lightblock,
   leetcodelogo,
   githubpreview,
   leetcode,
