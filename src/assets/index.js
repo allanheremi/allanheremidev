@@ -29,8 +29,12 @@ import leetcodelogo from './leetcodelogo.png';
 import threemesh from './threemesh.png';
 import web3 from './web3.png';
 import lightblock from './lightblock.png';
+import onchainbet from './onchainbet.png'
+import salttalentpool from './salttalentpool.png'
 
 export {
+  salttalentpool,
+  onchainbet,
   lightblock,
   leetcodelogo,
   githubpreview,
