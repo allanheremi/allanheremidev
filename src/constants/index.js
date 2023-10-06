@@ -219,6 +219,7 @@ const projects = [
     ],
     image: lightblock,
     source_code_link: 'https://github.com/allanheremi/lightblock',
+    deployment_link: 'https://lightblock-evm.vercel.app/'
   },
   {
     name: 'onChainBet',
@@ -240,6 +241,8 @@ const projects = [
     ],
     image: onchainbet,
     source_code_link: 'https://github.com/allanheremi/onchainbet',
+    deployment_link: 'https://onchainbet.vercel.app/'
+
   },
   {
     name: 'Salttalentpool',
@@ -261,6 +264,7 @@ const projects = [
     ],
     image: salttalentpool,
     source_code_link: 'https://github.com/rasmus-eklund/SaltTalentPool',
+    deployment_link: 'https://salt-talent-pool.vercel.app/'
   },
   {
     name: 'Web3 price tracker',
@@ -282,6 +286,7 @@ const projects = [
     ],
     image: web3,
     source_code_link: 'https://github.com/allanheremi/web3PriceTracker',
+    deployment_link: 'https://web3pricetracker.vercel.app/'
   },
   {
     name: 'Three Mesh',
@@ -303,6 +308,7 @@ const projects = [
     ],
     image: threemesh,
     source_code_link: 'https://github.com/allanheremi/threeMesh',
+    deployment_link: 'https://three-mesh.vercel.app/'
   },
 
   {
@@ -325,6 +331,7 @@ const projects = [
     ],
     image: githubpreview,
     source_code_link: 'https://github.com/allanheremi',
+    deployment_link: 'https://github.com/allanheremi'
   },
 ];
 

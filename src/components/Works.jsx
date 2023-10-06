@@ -15,13 +15,10 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  deploymentlink,
 }) => {
 
   let imageUrl = 'github';
-
-  if (index === 2) {
-    imageUrl = 'leetcodelogo'; 
-  }
 
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -33,20 +30,20 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px] hover:cursor-pointer'>
+        <div className='relative w-full h-[230px] hover:cursor-pointer'  onClick={() => window.open(deploymentlink, "_blank")}>
           <img
             src={image}
             alt='project_link'
             className='w-full h-full object-cover rounded-2xl'
           />
 
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+          <div className='absolute inset-0 flex justify-end m-3 card-img_hover z-10'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                  src={imageUrl === "github" ? github : leetcodelogo}
+                  src={imageUrl === "github" ? github : null}
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
@@ -97,7 +94,7 @@ const Works = () => {
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+          <ProjectCard key={`project-${index}`} index={index} {...project} deploymentlink={project.deployment_link}/>
         ))}
       </div>
     </>
