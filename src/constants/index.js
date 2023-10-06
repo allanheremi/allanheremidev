@@ -223,7 +223,7 @@ const projects = [
   {
     name: 'onChainBet',
     description:
-      'Simple gambling app using web3 metamask extension or demo play if no web3 wallet',
+      'Simple gambling app using web3 metamask extension or demo play if no web3 wallet (Co-founded with Rasmus Eklund & Jou-Fang Wang)',
     tags: [
       {
         name: 'web3.js',
@@ -244,7 +244,7 @@ const projects = [
   {
     name: 'Salttalentpool',
     description:
-      'Search engine for querying and displaying available talentpool at <SALT/> (Co-created with Rasmus Eklund & Jou-Fang Wang).',
+      'Search engine for querying and displaying available talentpool at <SALT/> (Co-founded with Rasmus Eklund & Jou-Fang Wang).',
     tags: [
       {
         name: 'search engine',
